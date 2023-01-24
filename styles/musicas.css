@@ -1,0 +1,27 @@
+.musicas {
+    background-color: var(--preto);
+    padding-bottom: 2em;
+}
+
+.musicas-texto {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 2em 0;
+    color: var(--branco);
+}
+
+.musica-conteudo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.musicas__midia {
+    width: 530px;
+    margin: 0 2em;
+}
+
+.musicas__ilustracao {
+    width: 35vw;
+    margin: 0 8em;  
+}

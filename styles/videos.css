@@ -1,0 +1,14 @@
+.videos {
+    padding-bottom: 5em;
+}
+
+.videos-recentes__texto {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 2em 3em;
+}
+
+.videos-recentes__midia {
+    margin-left: 4.6em;
+}

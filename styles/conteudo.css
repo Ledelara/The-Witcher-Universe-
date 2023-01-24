@@ -1,0 +1,99 @@
+.conteudo {
+    display: flex;
+}
+
+.menu-lateral__item {
+    border-bottom: 1px solid var(--preto);
+    border-right: 1px solid var(--preto);
+    padding: 1em;
+}
+
+.menu-lateral__item:hover {
+    background-color: var(--vermelho);
+}
+
+.menu-lateral__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--preto);
+}
+
+.conteudo-principal__titulo {
+    font-size: 25px;
+    font-weight: 700;
+    width: 40%;
+    margin: 2em auto;
+}
+
+.conteudo-principal__descricao, .sinopse-descricao, .forum-titulo__descricao {
+    text-align: center;
+    font-size: 18px;
+    margin: 0 2em;
+}
+
+.sinopse-descricao {
+    padding: 0.5em 0;
+}
+
+.regras {
+    margin: 2em 0;
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+.regras-conteudo__titulo, .sinopse-titulo, .forum-titulo {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 2em 0;
+}
+
+.regras-da-comunidade {
+    padding-bottom: 3em;
+}
+
+.regras-forum {
+    padding: 0 2em;
+}
+
+.regras-forum__lista {
+    text-align: center;
+    padding: 1em 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.conteudo-secundario {
+    margin-top: 1em;
+}
+
+.conteudo-secundario__titulo {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 2em 0;
+}
+
+.conteudo-secundario__imagem {
+    display: flex;
+}
+
+.imagens-da-comunidade__item {
+    width: 30vw;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    transition: 400ms;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0 var(--preto)
+}
+
+.imagens-da-comunidade__item:hover {
+    transform: scale(1.2);
+}
+
+
+

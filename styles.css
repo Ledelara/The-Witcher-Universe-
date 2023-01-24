@@ -1,0 +1,21 @@
+@import url("styles/header.css");
+@import url("styles/conteudo.css");
+@import url("styles/videos.css");
+@import url("styles/musicas.css");
+@import url("styles/rodape.css");
+
+:root {
+    --cor-de-fundo: #1C1C1C;
+    --preto: #000000;
+    --branco: #F5F5F5;
+    --vermelho: #A52A2A;
+    --font-family: "Noto Sans";
+    --cinza: #DCDCDC;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+}
+

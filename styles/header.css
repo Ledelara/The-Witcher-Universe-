@@ -1,0 +1,33 @@
+.cabecalho {
+    background: var(--preto);
+}
+
+.container {
+    display: flex;
+    padding: 3em 0;
+    justify-content: space-between;
+}
+
+.cabecalho-logo {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--branco);
+    margin-left: 2em;
+}
+
+.lista-menu {
+    display: flex;
+    
+}
+
+.lista-menu__link {
+    color: var(--branco);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 2em;
+}
+
+.lista-menu__link:hover {
+    color: var(--vermelho);
+}
