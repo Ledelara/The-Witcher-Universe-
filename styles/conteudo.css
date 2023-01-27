@@ -79,12 +79,11 @@
 }
 
 .conteudo-secundario__imagem {
-    display: flex;
+    text-align: center;
 }
 
 .imagens-da-comunidade__item {
-    width: 30vw;
-    margin-left: 2em;
+    width: 40vw;
     margin-bottom: 2em;
     transition: 400ms;
     border-radius: 10px;
@@ -93,6 +92,27 @@
 
 .imagens-da-comunidade__item:hover {
     transform: scale(1.2);
+}
+
+.botao {
+    text-align: left;
+    margin-left: 4.6em;
+}
+
+.botao-proximo {
+    border-radius: 5px;
+    color: var(--branco);
+    font-size: 20px;
+    background: var(--preto);
+    text-align: center;
+    border: 3px solid var(--preto);
+    cursor: pointer;
+}
+
+.botao-proximo:hover {
+    color: var(--preto);
+    background: var(--branco);
+    border: 3px solid var(--preto);
 }
 
 
