@@ -38,4 +38,6 @@ HTML5
 CSS3 
 JavaScript
 
+<h1 align="center"> Status do projeto </h1>
+
 > :construction: Projeto em construção :construction:
